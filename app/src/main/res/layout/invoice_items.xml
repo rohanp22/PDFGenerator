@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/sno"
+                android:layout_width="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="1"
+                android:textAlignment="center" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="0dp" />
+
+            <TextView
+                android:id="@+id/particulars"
+                android:layout_width="316dp"
+                android:layout_marginTop="5dp"
+                android:text="2"
+                android:textAlignment="center" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="0dp" />
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="125dp"
+                android:layout_marginTop="5dp"
+                android:text="3"
+                android:textAlignment="center" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="0dp" />
+
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="125dp"
+                android:layout_marginTop="5dp"
+                android:text="4"
+                android:textAlignment="center" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
